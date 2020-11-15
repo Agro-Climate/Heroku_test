@@ -7,7 +7,7 @@ import pandas as pd
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-df = pd.read_csv(r'C:\Users\Eunjin\Heroku_Dash\iris.csv')
+df = pd.read_csv('iris.csv')
 
 def generate_table(dataframe, max_rows=10):
     return html.Table(
